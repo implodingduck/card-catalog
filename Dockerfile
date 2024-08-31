@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 COPY ./app /code/app
 
 #CMD ["pip", "freeze"]
-CMD ["python", "-m", "app.main"]
+CMD ["python", "-u", "-m", "app.main"]
